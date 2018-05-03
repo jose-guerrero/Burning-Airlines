@@ -20,23 +20,23 @@ class SignupForm extends Component{
 
   onSubmit(e){
 
-    const ghUrl = "https://burningairlines.herokuapp.com/#/home"; // changed from localhost:3000
+    const ghUrl = "https://burningairlines.herokuapp.com/home"; // changed from localhost:3000
     e.preventDefault();
     if (this.state.password === "chicken")
     {
         if (this.state.username === "Jose")
         {
-          window.location.href = `${ghUrl}/#/jose`;
+          window.location.href = `${ghUrl}/jose`;
         }
 
         if (this.state.username === "Maddi")
         {
-          window.location.href = `${ghUrl}/#/maddi`;
+          window.location.href = `${ghUrl}/maddi`;
         }
 
         if (this.state.username === "Craigsy")
         {
-          window.location.href = `${ghUrl}/#/craigsy`;
+          window.location.href = `${ghUrl}/craigsy`;
         }
 
     }
