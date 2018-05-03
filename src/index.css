@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+* {
+  /*border: 1px solid pink;*/
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Futura, sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.login-logo {
+  margin-bottom: 0;
+}
+
+.welcome {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.seat {
+  background-color: cornflowerblue;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.taken {
+  background-color: #e03844;
+}
+
+.res-button {
+  margin: 15px 0 0 0;
+  padding: 15px;
+  font-family: Futura, sans-serif;
+  text-transform: uppercase;
+}
+
+.row-num {
+  display: inline-block;
+  width: 15px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: top;
+}
+
+.res-status {
+  padding: 15px 0;
+  color: cornflowerblue;
+}
+
+.selected {
+  background-color: cornsilk;
+  /* display: inline-block; */
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px cornflowerblue solid;
+}
+
+label.search {
+  width: 100px;
+}
+
+button.book {
+  margin-left: 20px;
+}
+
+form {
+  padding: 20px;
+  background-color: #e03844;
+}
+
+input.search-flight, input.search-user {
+  padding: 8px;
+  width: 400px;
+}
+
+.monospace {
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+
+}
+
+.header {
+  height: 100px;
+}
+
+img {
+  width: 200px;
+  float: right;
+}
+
+.login-form {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.login-label {
+  display: inline-block;
+  width: 100px;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: uppercase;
+}
+
+.login-field {
+  margin: 10px 10px 10px 0;
+  padding: 15px 15px 15px 0;
+}
+
+.login-button {
+  margin-bottom: 15px;
+}
+
+.logout {
+  background-color: white;
+  height: 80px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logout-button {
+  float: right;
+  background-color: #3ec4d2;
+  color: white;
+  margin-top: 20px;
+}
+
+/*p.search-header {
+    display: inline-block;
+    vertical-align: bottom;
+}*/
+
+.header-flights {
+  height: 130px;
+}
+
+.grid-logout {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  /*grid-gap: 20px;*/
+}
+
+.cell-logout {
+  /*width: 100px;*/
+}
+
+.select-city {
+  width: 400px;
+  padding: 15px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /*appearance: none;*/
+  /*margin: 10px;*/
+  background: white;
+  color: grey;
+  outline: none;
+  border-radius: 0;
+  /*ARROW STYLE*/
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+.select-city:focus {
+  background-image:
+    linear-gradient(45deg, rgba(62, 196, 210, 1.00) 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, rgba(62, 196, 210, 1.00) 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: rgba(62, 196, 210, 1.00);
+  outline: 0;
+}
+
+.flight-span {
+  width: 660px;
+  display: inline-block;
+}
