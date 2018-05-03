@@ -20,7 +20,7 @@ class SignupForm extends Component{
 
   onSubmit(e){
 
-    const ghUrl = "https://burningairlines.herokuapp.com/home"; // changed from localhost:3000
+    const ghUrl = "https://burningairlines.herokuapp.com"; // changed from localhost:3000
     e.preventDefault();
     if (this.state.password === "chicken")
     {
