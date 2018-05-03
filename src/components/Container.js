@@ -27,7 +27,7 @@ class Container extends Component {
 
   clicking(e){
     e.preventDefault();
-     window.location.href = "http://localhost:3000/home/";
+     window.location.href = "https://burningairlines.herokuapp.com/#/home/";
   }
 
 
